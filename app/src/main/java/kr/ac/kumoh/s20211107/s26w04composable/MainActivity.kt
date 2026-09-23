@@ -47,7 +47,6 @@ fun MainScreen() {
         ) {
 //            var count = 0
             var count by remember { mutableIntStateOf(0) }
-
             Column(
                 modifier = Modifier.fillMaxSize(),
                 verticalArrangement = Arrangement.Center,
